@@ -1,0 +1,68 @@
+/*Reset*/
+
+body, ul, li, p{
+    padding:0px;
+    margin:0px;
+}
+
+li{
+    list-style:none;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Suwannaphum', serif;
+}
+
+/*Reset*/
+
+/*Lista*/
+
+#lista_de_presenca{
+    margin:40px 5px;
+}
+
+.participante{
+    font-size:1.1875em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.participante + .participante{
+    margin-top: 20px;
+}
+
+.infos{
+    display: flex;
+}
+
+.numero{
+    font-weight:900;
+    margin-right:5px;
+}
+
+.nome{
+    font-weight:400;
+}
+
+.faltas{
+    display: flex;
+}
+
+#falta_1, #falta_2, #falta_3{
+    display: block;
+    width: 36px;
+    height: 36px;
+    background:#D9D9D9;
+}
+
+#falta_2{
+    margin-right:10px;
+    margin-left:10px;
+}
+
+/*Lista*/
